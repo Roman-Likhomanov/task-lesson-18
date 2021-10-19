@@ -11,6 +11,7 @@ module.exports = {
     sourceType: "module",
   },
   rules: {
+    "func-names": "off",
     "no-unused-vars": "off",
     "no-new": "off",
     "import/extensions": "off",
