@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint . && prettier --check . && stylelint \"**/*.css\"",
-    "lint:fix": "eslint . --fix && prettier --write . && stylelint \"**/*.css\" --fix ",
+    "lint:fix": "eslint . --fix && prettier --write . && stylelint \"**/*.css\" --fix",
     "prepare": "husky install",
     "build": "webpack --node-env production",
     "dev": "webpack serve"
