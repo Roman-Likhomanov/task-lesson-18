@@ -1,5 +1,7 @@
 module.exports = {
   extends: ["stylelint-config-standard"],
   plugins: ["stylelint-scss"],
-  rules: {},
+  rules: {
+    "declaration-colon-newline-after": "off",
+  },
 };
