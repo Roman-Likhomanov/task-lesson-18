@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint . && prettier --check . && stylelint \"**/*.css\"",
-    "lint:fix": "eslint . --fix && prettier --write . && stylelint \"**/*.css\" --fix",
+    "lint": "eslint . && prettier --check . && stylelint \"**/*.scss\"",
+    "lint:fix": "eslint . --fix && prettier --write . && stylelint \"**/*.scss\" --fix",
     "prepare": "husky install",
     "build": "webpack --node-env production",
     "dev": "webpack serve"
@@ -58,7 +58,7 @@
   },
   "lint-staged": {
     "*.js": "eslint --fix",
-    "*.{js,css,md,json,yml,html}": "prettier --write",
-    "*.css": "stylelint --fix"
+    "*.{js,scss,md,json,yml,html}": "prettier --write",
+    "*.scss": "stylelint --fix"
   }
 }
