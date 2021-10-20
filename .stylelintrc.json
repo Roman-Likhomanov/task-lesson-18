@@ -1,0 +1,7 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+  "plugins": "stylelint-scss",
+  "rules": {
+    "declaration-colon-newline-after": "always-multi-line"
+  }
+}
