@@ -2,7 +2,7 @@
   "name": "task-lesson-18",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "jest",
     "lint": "prettier --check . && eslint . && stylelint \"**/*.scss\"",
@@ -59,6 +59,6 @@
   "lint-staged": {
     "*.js": "eslint --fix",
     "*.{js,css,scss,md,json,yml,html}": "prettier --write",
-    "*.scss": "stylelint --fix"
+    "*.{css,scss}": "stylelint --fix"
   }
 }
