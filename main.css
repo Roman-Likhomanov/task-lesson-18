@@ -7,7 +7,7 @@ nav {
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
   position: relative;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 h1 {
@@ -15,7 +15,6 @@ h1 {
   text-align: center;
   border-bottom: 2px solid blueviolet;
   padding-bottom: 12px;
-  
 }
 
 .img-page-1 {
@@ -28,9 +27,6 @@ h1 {
   padding: 30px 50px;
   border: 1px solid #ccd;
   background-color: white;
-}
-
-.sim-slider {
   display: block;
   position: relative;
   left: -25%;
@@ -68,7 +64,8 @@ h1 {
   left: 10px;
   top: 40%;
   display: block;
-  background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-left.png")
+  background:
+    url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-left.png")
     no-repeat;
 }
 
@@ -76,7 +73,8 @@ h1 {
   right: 10px;
   top: 40%;
   display: block;
-  background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-right.png")
+  background:
+    url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-right.png")
     no-repeat;
 }
 
@@ -105,7 +103,7 @@ h1 {
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
   position: relative;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .footer {
@@ -117,13 +115,12 @@ h1 {
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
   position: relative;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .img-page-2 {
   width: 40%;
-  height:40%;
-  
+  height: 40%;
 }
 
 .subtitle1 {
@@ -151,26 +148,27 @@ h1 {
 }
 
 .img-page-3 {
-    width: 40%;
-    height:40%;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);   
+  width: 40%;
+  height: 40%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
 }
 
-.h4-page-4{
+.h4-page-4 {
   margin: 0;
 }
 
-.input{
-  margin-bottom:1rem;
+.input {
+  margin-bottom: 1rem;
 }
 
-.input-message{
-  margin-bottom:1rem;
-  margin-right:30rem;
+.input-message {
+  margin-bottom: 1rem;
+  margin-right: 30rem;
   height: 5rem;
   width: 50%;
 }
+
 
 /*# sourceMappingURL=main.css.map*/
