@@ -64,8 +64,7 @@ h1 {
   left: 10px;
   top: 40%;
   display: block;
-  background:
-    url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-left.png")
+  background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-left.png")
     no-repeat;
 }
 
@@ -73,8 +72,7 @@ h1 {
   right: 10px;
   top: 40%;
   display: block;
-  background:
-    url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-right.png")
+  background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-right.png")
     no-repeat;
 }
 
