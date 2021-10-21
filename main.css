@@ -1,5 +1,8 @@
+%box-s {
+  box-sizing: border-box;
+}
+
 nav {
-  display: block;
   margin: 0;
   padding: 0;
   margin-block-start: 2rem;
@@ -7,7 +10,7 @@ nav {
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
   position: relative;
-  box-sizing: border-box;
+  @extend %box-s;
 }
 
 h1 {
@@ -15,10 +18,12 @@ h1 {
   text-align: center;
   border-bottom: 2px solid blueviolet;
   padding-bottom: 12px;
+  @extend %box-s;
 }
 
 .img-page-1 {
   width: 100%;
+  @extend %box-s;
 }
 
 .sim-slider {
@@ -30,6 +35,7 @@ h1 {
   display: block;
   position: relative;
   left: -25%;
+  @extend %box-s;
 }
 
 .sim-slider-list {
@@ -37,6 +43,7 @@ h1 {
   padding: 0;
   list-style-type: none;
   position: relative;
+  @extend %box-s;
 }
 
 .sim-slider-element {
@@ -48,6 +55,7 @@ h1 {
   left: 0;
   top: 0;
   display: block;
+  @extend %box-s;
 }
 
 .sim-slider-arrow-left,
@@ -58,6 +66,7 @@ h1 {
   cursor: pointer;
   opacity: 0.6;
   z-index: 4;
+  @extend %box-s;
 }
 
 .sim-slider-arrow-left {
@@ -66,6 +75,7 @@ h1 {
   display: block;
   background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-left.png")
     no-repeat;
+  @extend %box-s;
 }
 
 .sim-slider-arrow-right {
@@ -74,14 +84,17 @@ h1 {
   display: block;
   background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-right.png")
     no-repeat;
+  @extend %box-s;
 }
 
 .sim-slider-arrow-left:hover {
   opacity: 1;
+  @extend %box-s;
 }
 
 .sim-slider-arrow-right:hover {
   opacity: 1;
+  @extend %box-s;
 }
 
 .subtitle {
@@ -90,6 +103,7 @@ h1 {
   width: 100%;
   top: 0%;
   left: 110%;
+  @extend %box-s;
 }
 
 .section {
@@ -101,7 +115,67 @@ h1 {
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
   position: relative;
-  box-sizing: border-box;
+  @extend %box-s;
+}
+
+.img-page-2 {
+  width: 40%;
+  height: 40%;
+  @extend %box-s;
+}
+
+.subtitle1 {
+  display: block;
+  position: absolute;
+  width: 50%;
+  top: 0%;
+  left: 45%;
+  @extend %box-s;
+}
+
+.subtitle2 {
+  display: block;
+  position: absolute;
+  width: 50%;
+  top: 26%;
+  left: 45%;
+  @extend %box-s;
+}
+
+.subtitle3 {
+  display: block;
+  position: absolute;
+  width: 50%;
+  top: 52%;
+  left: 45%;
+  @extend %box-s;
+}
+
+.img-page-3 {
+  width: 40%;
+  height: 40%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  @extend %box-s;
+}
+
+.h4-page-4 {
+  margin: 0;
+  @extend %box-s;
+}
+
+.input {
+  margin-bottom: 1rem;
+  @extend %box-s;
+}
+
+.input-message {
+  margin-bottom: 1rem;
+  margin-right: 30rem;
+  height: 5rem;
+  width: 50%;
+  @extend %box-s;
 }
 
 .footer {
@@ -113,59 +187,7 @@ h1 {
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
   position: relative;
-  box-sizing: border-box;
-}
-
-.img-page-2 {
-  width: 40%;
-  height: 40%;
-}
-
-.subtitle1 {
-  display: block;
-  position: absolute;
-  width: 50%;
-  top: 0%;
-  left: 45%;
-}
-
-.subtitle2 {
-  display: block;
-  position: absolute;
-  width: 50%;
-  top: 26%;
-  left: 45%;
-}
-
-.subtitle3 {
-  display: block;
-  position: absolute;
-  width: 50%;
-  top: 52%;
-  left: 45%;
-}
-
-.img-page-3 {
-  width: 40%;
-  height: 40%;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-.h4-page-4 {
-  margin: 0;
-}
-
-.input {
-  margin-bottom: 1rem;
-}
-
-.input-message {
-  margin-bottom: 1rem;
-  margin-right: 30rem;
-  height: 5rem;
-  width: 50%;
+  @extend %box-s;
 }
 
 
